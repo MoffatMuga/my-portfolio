@@ -8,6 +8,8 @@
 
 html{
   scroll-behavior: smooth;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 body {
