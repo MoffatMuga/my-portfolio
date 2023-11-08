@@ -31,7 +31,7 @@ function Header() {
             </div>
             <div className='flex items-center gap-4'>
                 <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] '>
-                    <i class="ri-send-plane-line"></i> Hire me
+                <i class="ri-mail-send-line"></i>chat me
                 </button>
                 <span className='md:hidden text-smallTextColor text-2xl cursor-pointer'><i class="ri-menu-4-fill"></i></span>
             </div>
@@ -41,7 +41,7 @@ function Header() {
 
 
 
-  )
+  ) 
 }
 
 export default Header
