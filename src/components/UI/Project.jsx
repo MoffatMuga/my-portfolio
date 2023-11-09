@@ -40,12 +40,17 @@ function Project() {
             </div>
 
             <div className="text-center mt-6">
-                                    <div onClick={seeMoreHandler}
-                                    className="flex items-center justify-center w-full h-full">
-                                        <button className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-2 rounded-[8px] font-[500] ease-in duration-200 ">
-                                            see more
-                                        </button>
-                                    </div>
+
+                    {
+                        nextItems < portfolios.length && data.length > 6 && <button  onClick={seeMoreHandler} className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-2 rounded-[8px] font-[500] ease-in duration-200 ">
+                        see more
+                    </button>
+                    }
+
+                {/* <div onClick={seeMoreHandler}
+                className="flex items-center justify-center w-full h-full">
+                    
+                </div> */}
             </div>
 
         </div>
